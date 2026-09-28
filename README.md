@@ -59,7 +59,7 @@ A self-hosted learning tracker I built for my own Python → Go → DevOps plan:
 
 `Flask` `SQLite` `Docker` `nginx` `CI: ruff + pytest`
 
-[→ live site](https://itegin.com/resume)
+[→ showcase](https://github.com/Itegin/pygodevops-guide-showcase) · [→ live site](https://itegin.com/resume)
 
 </td>
 </tr>
