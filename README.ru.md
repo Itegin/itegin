@@ -59,7 +59,7 @@
 
 `Flask` `SQLite` `Docker` `nginx` `CI: ruff + pytest`
 
-[→ живой сайт](https://itgnroadmap.duckdns.org:9443/resume)
+[→ витрина](https://github.com/Itegin/pygodevops-guide-showcase) · [→ живой сайт](https://itgnroadmap.duckdns.org:9443/resume)
 
 </td>
 </tr>
