@@ -82,26 +82,13 @@ Everything self-hosted: Proxmox for virtualization, Debian + Docker Compose for 
 
 ---
 
-<details>
-<summary><b>Learning roadmap</b> (Python → Go → DevOps, 12 phases)</summary>
-<br>
+### Highlights
 
-- [x] Python fundamentals
-- [x] Linux & networking basics
-- [ ] Go fundamentals
-- [ ] Docker & containers
-- [ ] CI/CD pipelines
-- [ ] Configuration management (Ansible)
-- [ ] Infrastructure as Code (Terraform)
-- [ ] Kubernetes / k3s
-- [ ] Monitoring & observability
-- [ ] Cloud fundamentals
-- [ ] Security hardening
-- [ ] Capstone project
-
-Full tracker (private source, public progress): [itgnroadmap.duckdns.org:9443/resume](https://itgnroadmap.duckdns.org:9443/resume)
-
-</details>
+- Built and deployed **two self-hosted web services** (Flask, FastAPI) from scratch, both public over nginx + TLS
+- Run a **home server**: Proxmox VE for virtualization, Docker Compose for services, an SSH tunnel to get around CGNAT
+- **IT-Deck** — public project, actively maintained, tagged releases with CI-built Windows binaries
+- **PyGoDevOps-guide** — own 12-phase / 77-lesson curriculum, working through it lesson by lesson while building the tracker itself
+- Wrote my own auth, admin panel (draft → publish), and a cookie-free page-view counter — no frameworks, no ORM, no shortcuts
 
 ---
 

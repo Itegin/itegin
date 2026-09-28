@@ -82,26 +82,13 @@ flowchart LR
 
 ---
 
-<details>
-<summary><b>План обучения</b> (Python → Go → DevOps, 12 фаз)</summary>
-<br>
+### Ключевое
 
-- [x] Основы Python
-- [x] Linux и основы сетей
-- [ ] Основы Go
-- [ ] Docker и контейнеры
-- [ ] CI/CD пайплайны
-- [ ] Управление конфигурацией (Ansible)
-- [ ] Infrastructure as Code (Terraform)
-- [ ] Kubernetes / k3s
-- [ ] Мониторинг и observability
-- [ ] Основы облаков
-- [ ] Security hardening
-- [ ] Итоговый проект
-
-Полный трекер (исходники закрыты, прогресс публичный): [itgnroadmap.duckdns.org:9443/resume](https://itgnroadmap.duckdns.org:9443/resume)
-
-</details>
+- Написал и задеплоил **два self-hosted веб-сервиса** (Flask, FastAPI) с нуля, оба доступны публично через nginx + TLS
+- Держу **домашний сервер**: Proxmox VE для виртуализации, Docker Compose для сервисов, SSH-туннель в обход CGNAT
+- **IT-Deck** — публичный проект, активно развивается, релизы с Windows-сборками через CI
+- **PyGoDevOps-guide** — собственная программа из 12 фаз / 77 уроков, прохожу её урок за уроком, одновременно строя сам трекер
+- Написал свою аутентификацию, админку (черновик → публикация) и счётчик просмотров без cookies — без фреймворков, без ORM, без сокращений
 
 ---
 
