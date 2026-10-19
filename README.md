@@ -1,15 +1,15 @@
 <div align="center">
 
-# Hi, I'm Itegin 👋
+# Hi, I'm Itegin Baltabaev 👋
 
-**Network & system administrator, moving into DevOps.**
-21 y.o. · Russia/Kazakhstan · Cybersecurity College grad · currently interning while making the switch.
+**Linux & Monitoring Engineer**
+Moscow, Russia · open to remote infrastructure / DevOps roles
 
 🇷🇺 [Русская версия](README.ru.md)
 
+[![Site](https://img.shields.io/badge/Site-itegin-8A2BE2?style=flat-square&logo=readthedocs&logoColor=white)](https://itgnroadmap.duckdns.org:9443/en?src=github)
 [![Telegram](https://img.shields.io/badge/Telegram-@itegin-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/itegin)
 [![Email](https://img.shields.io/badge/Email-iteginbt%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:iteginbt@gmail.com)
-[![Resume](https://img.shields.io/badge/Resume-live%20page-8A2BE2?style=flat-square&logo=readthedocs&logoColor=white)](https://itgnroadmap.duckdns.org:9443/resume)
 
 </div>
 
@@ -17,22 +17,24 @@
 
 ### About
 
-I run my own home server (Proxmox + Debian, containers, reverse proxy, a VPN and CGNAT tunnel to expose it) and I'm working through Python, Go, Linux internals, Docker, CI/CD and IaC in that order — one guided plan, tracked lesson by lesson. Right now I'm interning and pointing that experience at DevOps.
+Sole system administrator at a company across two sites: Linux (Debian, Ubuntu, Astra), Windows Server and Proxmox VE. I introduced monitoring with Prometheus and Grafana with alerts to Telegram, ticketing in Jira and a knowledge base in Confluence, and moved services to Docker and k3s. Before that I ran all of the IT for an 8-workstation office. I focus on monitoring and incident analysis, and I take my own services to production myself.
 
-**Currently learning / using:**
+**Tools I work with:**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes_(k3s)-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white)
 ![nginx](https://img.shields.io/badge/nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
+![Confluence](https://img.shields.io/badge/Confluence-172B4D?style=flat-square&logo=confluence&logoColor=white)
 
 ---
 
@@ -42,24 +44,24 @@ I run my own home server (Proxmox + Debian, containers, reverse proxy, a VPN and
 <tr>
 <td width="50%" valign="top">
 
-**[IT-Deck](https://github.com/Itegin/it-deck)**
+**[IT-Deck](https://github.com/Itegin/it-deck)** · latest release [v0.6.1](https://github.com/Itegin/it-deck/releases/latest)
 
-An old iPhone becomes a Stream Deck for a Windows PC — real-time tiles (mic, volume, VPN, CPU/RAM), one `.exe`, no server, no Docker, connected over the LAN by QR code.
+An old iPhone becomes a control deck and a webcam for your Windows PC — live tiles, QR-code setup, no server, no Docker.
 
-`Python` `WebSocket` `Windows COM` `PWA`
+`Python` `FastAPI` `WebSocket` `WebRTC` `GitHub Actions`
 
 <img src="assets/it-deck-screenshot.jpg" width="100%" alt="IT-Deck running on a phone">
 
 </td>
 <td width="50%" valign="top">
 
-**PyGoDevOps-guide** *(source private)*
+**itegin — personal site** *(source private)*
 
-A self-hosted learning tracker I built for my own Python → Go → DevOps plan: 12 phases, 77 lessons, per-track progress, theory + practice + self-checks. Runs on my home server.
+My site and portfolio, written from scratch: own auth and admin panel (draft → publish), a cookie-free page-view counter, a GitHub showcase synced by webhook. Runs in production on a VPS.
 
-`Flask` `SQLite` `Docker` `nginx` `CI: ruff + pytest`
+`Flask` `SQLite` `Docker Compose` `nginx` `CI: ruff + pytest`
 
-[→ showcase](https://github.com/Itegin/pygodevops-guide-showcase) · [→ live site](https://itgnroadmap.duckdns.org:9443/resume)
+[→ live site](https://itgnroadmap.duckdns.org:9443/en?src=github) · [→ showcase repo](https://github.com/Itegin/pygodevops-guide-showcase)
 
 </td>
 </tr>
@@ -67,28 +69,29 @@ A self-hosted learning tracker I built for my own Python → Go → DevOps plan:
 
 ---
 
-### Home server
+### How the site runs
 
 ```mermaid
 flowchart LR
-    U[Browser] -->|HTTPS, TLS| N[nginx]
-    N -->|SSH tunnel, CGNAT| S[Debian server]
-    S --> D1[Docker: PyGoDevOps-guide]
-    S --> D2[Docker: other services]
-    D1 --> DB[(SQLite, volume)]
+    U[Browser] -->|HTTPS| N[nginx, TLS]
+    subgraph VPS
+        N --> A[Docker: Flask site]
+        A --> DB[(SQLite volume)]
+    end
+    DB -. daily backup .-> H[Home server] -. weekly .-> P[My PC]
 ```
 
-Everything self-hosted: Proxmox for virtualization, Debian + Docker Compose for services, nginx terminating TLS, an SSH tunnel to get around CGNAT, GitHub Actions running lint/tests/build on every push.
+nginx terminates TLS on the VPS and proxies to the container; GitHub Actions runs lint, tests and a Docker build on every push. The database is backed up daily on the VPS, copied to a home server (which doubles as my test bench) and then to my PC.
 
 ---
 
 ### Highlights
 
-- Built and deployed **two self-hosted web services** (Flask, FastAPI) from scratch, both public over nginx + TLS
-- Run a **home server**: Proxmox VE for virtualization, Docker Compose for services, an SSH tunnel to get around CGNAT
-- **IT-Deck** — public project, actively maintained, tagged releases with CI-built Windows binaries
-- **PyGoDevOps-guide** — own 12-phase / 77-lesson curriculum, working through it lesson by lesson while building the tracker itself
-- Wrote my own auth, admin panel (draft → publish), and a cookie-free page-view counter — no frameworks, no ORM, no shortcuts
+- Sole sysadmin across two company sites: Linux, Windows Server, Proxmox VE, network, backups, user support
+- Introduced **Prometheus + Grafana monitoring with Telegram alerts**, so failures show up before users call
+- Set up **Jira ticketing and a Confluence knowledge base** with runbooks; moved services to **Docker and k3s**
+- **IT-Deck**: public project with tagged releases, tests on Linux and Windows, and a CI-built Windows `.exe`
+- Run my own **production web services**: this site runs in Docker behind nginx + TLS on a VPS, with automated backups
 
 ---
 
@@ -98,4 +101,4 @@ Everything self-hosted: Proxmox for virtualization, Debian + Docker Compose for 
   <img alt="contribution snake" src="https://raw.githubusercontent.com/Itegin/itegin/output/github-contribution-grid-snake.svg">
 </picture>
 
-<sub>Open to remote infrastructure/DevOps roles.</sub>
+<sub>Open to remote infrastructure / DevOps roles. Reach me on [Telegram](https://t.me/itegin) or at [iteginbt@gmail.com](mailto:iteginbt@gmail.com).</sub>
