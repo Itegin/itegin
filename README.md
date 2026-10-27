@@ -7,7 +7,7 @@ Moscow, Russia · open to remote infrastructure / DevOps roles
 
 🇷🇺 [Русская версия](README.ru.md)
 
-[![Site](https://img.shields.io/badge/Site-itegin-8A2BE2?style=flat-square&logo=readthedocs&logoColor=white)](https://itgnroadmap.duckdns.org:9443/en?src=github)
+[![Site](https://img.shields.io/badge/Site-itegin-8A2BE2?style=flat-square&logo=readthedocs&logoColor=white)](https://itegin.com/en?src=github)
 [![Telegram](https://img.shields.io/badge/Telegram-@itegin-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/itegin)
 [![Email](https://img.shields.io/badge/Email-iteginbt%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:iteginbt@gmail.com)
 
@@ -61,7 +61,7 @@ My site and portfolio, written from scratch: own auth and admin panel (draft →
 
 `Flask` `SQLite` `Docker Compose` `nginx` `CI: ruff + pytest`
 
-[→ live site](https://itgnroadmap.duckdns.org:9443/en?src=github) · [→ showcase repo](https://github.com/Itegin/pygodevops-guide-showcase)
+[→ live site](https://itegin.com/en?src=github) · [→ showcase repo](https://github.com/Itegin/pygodevops-guide-showcase)
 
 </td>
 </tr>
