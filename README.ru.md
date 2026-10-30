@@ -50,7 +50,7 @@
 
 `Python` `FastAPI` `WebSocket` `WebRTC` `GitHub Actions`
 
-<img src="assets/it-deck-screenshot.jpg" width="100%" alt="IT-Deck на телефоне">
+<img src="assets/it-deck-deck.jpg" width="100%" alt="Дека IT-Deck Home: веб-камера в эфире 720p, Mic, Sound, Volume, Audio Switch, Screenshot, Shut down, CPU и RAM, Send text, часы и Lock PC, слева быстрый запуск YouTube, браузера, Discord, Steam и Spotify">
 
 </td>
 <td width="50%" valign="top">
