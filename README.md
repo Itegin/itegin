@@ -50,7 +50,7 @@ A phone or tablet (iPhone, Android, iPad) becomes a control deck and a webcam fo
 
 `Python` `FastAPI` `WebSocket` `WebRTC` `GitHub Actions`
 
-<img src="assets/it-deck-screenshot.jpg" width="100%" alt="IT-Deck running on a phone">
+<img src="assets/it-deck-deck.jpg" width="100%" alt="The IT-Deck Home deck: Webcam on air at 720p, Mic, Sound, Volume, Audio Switch, Screenshot, Shut down, CPU and RAM, Send text, clock and Lock PC, with a quick-launch bar of YouTube, browser, Discord, Steam and Spotify">
 
 </td>
 <td width="50%" valign="top">
