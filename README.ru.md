@@ -44,9 +44,9 @@
 <tr>
 <td width="50%" valign="top">
 
-**[IT-Deck](https://github.com/Itegin/it-deck)** · последний релиз [v0.6.1](https://github.com/Itegin/it-deck/releases/latest)
+**[IT-Deck](https://github.com/Itegin/it-deck)** · [![последний релиз](https://img.shields.io/github/v/release/Itegin/it-deck?label=release&style=flat-square)](https://github.com/Itegin/it-deck/releases/latest) · [страница проекта](https://itegin.com/projects/it-deck)
 
-Старый iPhone становится пультом и веб-камерой для Windows-ПК: живые тайлы, настройка по QR-коду, без сервера и Docker.
+Телефон или планшет (iPhone, Android, iPad) становится пультом и веб-камерой для Windows-ПК: живые тайлы, настройка по QR-коду, без сервера и Docker. Веб-камера работает в любом браузере телефона по собственному доверенному HTTPS-адресу, без профиля сертификата.
 
 `Python` `FastAPI` `WebSocket` `WebRTC` `GitHub Actions`
 
@@ -57,7 +57,7 @@
 
 **itegin — личный сайт** *(исходники закрыты)*
 
-Мой сайт-визитка и портфолио, написан с нуля: собственная аутентификация и админка (черновик → публикация), счётчик просмотров без cookies, витрина GitHub, обновляемая по вебхуку. Работает в продакшене на VPS.
+Мой сайт-визитка и портфолио, написан с нуля: собственная аутентификация и админка (черновик → публикация), собственная аналитика Umami (без cookies), витрина GitHub, обновляемая по вебхуку и ежедневному таймеру, и раздел админки, который выдаёт подписанные ключи IT-Deck (Ed25519). Работает в продакшене на VPS.
 
 `Flask` `SQLite` `Docker Compose` `nginx` `CI: ruff + pytest`
 
@@ -66,22 +66,6 @@
 </td>
 </tr>
 </table>
-
----
-
-### Как работает сайт
-
-```mermaid
-flowchart LR
-    U[Браузер] -->|HTTPS| N[nginx, TLS]
-    subgraph VPS
-        N --> A[Docker: сайт на Flask]
-        A --> DB[(SQLite, volume)]
-    end
-    DB -. ежедневный бэкап .-> H[Домашний сервер] -. раз в неделю .-> P[Мой ПК]
-```
-
-nginx терминирует TLS на VPS и проксирует в контейнер; GitHub Actions при каждом пуше гоняет lint, тесты и сборку Docker-образа. База ежедневно копируется на VPS, затем на домашний сервер (он же тестовый стенд) и дальше на мой ПК.
 
 ---
 

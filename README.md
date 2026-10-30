@@ -44,9 +44,9 @@ Sole system administrator at a company across two sites: Linux (Debian, Ubuntu, 
 <tr>
 <td width="50%" valign="top">
 
-**[IT-Deck](https://github.com/Itegin/it-deck)** · latest release [v0.6.1](https://github.com/Itegin/it-deck/releases/latest)
+**[IT-Deck](https://github.com/Itegin/it-deck)** · [![latest release](https://img.shields.io/github/v/release/Itegin/it-deck?label=latest%20release&style=flat-square)](https://github.com/Itegin/it-deck/releases/latest) · [project page](https://itegin.com/en/projects/it-deck)
 
-An old iPhone becomes a control deck and a webcam for your Windows PC — live tiles, QR-code setup, no server, no Docker.
+A phone or tablet (iPhone, Android, iPad) becomes a control deck and a webcam for your Windows PC — live tiles, QR-code setup, no server, no Docker. The webcam works in any phone browser over its own trusted HTTPS address, with no certificate profile.
 
 `Python` `FastAPI` `WebSocket` `WebRTC` `GitHub Actions`
 
@@ -57,7 +57,7 @@ An old iPhone becomes a control deck and a webcam for your Windows PC — live t
 
 **itegin — personal site** *(source private)*
 
-My site and portfolio, written from scratch: own auth and admin panel (draft → publish), a cookie-free page-view counter, a GitHub showcase synced by webhook. Runs in production on a VPS.
+My site and portfolio, written from scratch: own auth and admin panel (draft → publish), self-hosted Umami analytics (no cookies), a GitHub showcase synced by webhook and a daily timer, and an admin section that issues signed IT-Deck keys (Ed25519). Runs in production on a VPS.
 
 `Flask` `SQLite` `Docker Compose` `nginx` `CI: ruff + pytest`
 
@@ -66,22 +66,6 @@ My site and portfolio, written from scratch: own auth and admin panel (draft →
 </td>
 </tr>
 </table>
-
----
-
-### How the site runs
-
-```mermaid
-flowchart LR
-    U[Browser] -->|HTTPS| N[nginx, TLS]
-    subgraph VPS
-        N --> A[Docker: Flask site]
-        A --> DB[(SQLite volume)]
-    end
-    DB -. daily backup .-> H[Home server] -. weekly .-> P[My PC]
-```
-
-nginx terminates TLS on the VPS and proxies to the container; GitHub Actions runs lint, tests and a Docker build on every push. The database is backed up daily on the VPS, copied to a home server (which doubles as my test bench) and then to my PC.
 
 ---
 
