@@ -61,7 +61,7 @@
 
 `Flask` `SQLite` `Docker Compose` `nginx` `CI: ruff + pytest`
 
-[→ живой сайт](https://itegin.com/?src=github) · [→ репозиторий-витрина](https://github.com/Itegin/pygodevops-guide-showcase)
+[→ живой сайт](https://itegin.com/?src=github) · [→ репозиторий-витрина](https://github.com/Itegin/itegin-site)
 
 </td>
 </tr>

@@ -61,7 +61,7 @@ My site and portfolio, written from scratch: own auth and admin panel (draft →
 
 `Flask` `SQLite` `Docker Compose` `nginx` `CI: ruff + pytest`
 
-[→ live site](https://itegin.com/en?src=github) · [→ showcase repo](https://github.com/Itegin/pygodevops-guide-showcase)
+[→ live site](https://itegin.com/en?src=github) · [→ showcase repo](https://github.com/Itegin/itegin-site)
 
 </td>
 </tr>
